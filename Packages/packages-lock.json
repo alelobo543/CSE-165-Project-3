@@ -1,5 +1,15 @@
 {
   "dependencies": {
+    "com.qualcomm.qcht.unity.interactions": {
+      "version": "file:C:/Users/alobo/Downloads/Snapdragon_Spaces_SDK_0_13_0_for_Unity/Unity Package/com.qualcomm.qcht.unity.interactions-4.0.0-pre.11.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "com.unity.inputsystem": "1.0.2",
+        "com.unity.xr.interaction.toolkit": "2.3.0",
+        "com.unity.xr.management": "2.3.0-pre.1"
+      }
+    },
     "com.qualcomm.snapdragon.spaces": {
       "version": "file:C:/Users/alobo/Downloads/Snapdragon_Spaces_SDK_0_13_0_for_Unity/Unity Package/SnapdragonSpaces_Package_0_13_0.tgz",
       "depth": 0,
