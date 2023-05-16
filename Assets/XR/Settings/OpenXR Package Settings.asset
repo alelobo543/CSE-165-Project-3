@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efa78685d2359408d9e46e52dd1291ba, type: 3}
   m_Name: HandTrackingFeature Android
   m_EditorClassIdentifier: 
-  m_enabled: 0
-  nameUi: 
-  version: 
-  featureIdInternal: 
+  m_enabled: 1
+  nameUi: Hand Tracking
+  version: 0.11.0
+  featureIdInternal: com.qualcomm.snapdragon.spaces.handtracking
   openxrExtensionStrings: 
-  company: 
+  company: Qualcomm
   priority: 0
   required: 0
 --- !u!114 &-8243573346847846538
@@ -107,7 +107,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12ea98de581824d928181a8149a1e778, type: 3}
   m_Name: HandTrackingFeature Android
   m_EditorClassIdentifier: 
-  m_enabled: 1
+  m_enabled: 0
   nameUi: Hand Tracking (Deprecated)
   version: 0.13.0
   featureIdInternal: com.qualcomm.snapdragon.spaces.handtracking.deprecated
@@ -669,6 +669,7 @@ MonoBehaviour:
   - {fileID: 281847179945257319}
   - {fileID: 2317010793397234027}
   - {fileID: 2113765337180052100}
+  - {fileID: -8770203480239189351}
   - {fileID: -6756158847704295421}
   - {fileID: 1183965164131449113}
   - {fileID: 7968675807559898034}
