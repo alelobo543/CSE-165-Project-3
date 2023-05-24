@@ -651,6 +651,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   InteractionManager: {fileID: 307823961}
+  SwitchInputAction: {fileID: -2098020438248333733, guid: 3b8161acd44bb4e9489a58e42924c914, type: 3}
   LeftControllerPrimary: {fileID: 4234151240439666235, guid: 3b8161acd44bb4e9489a58e42924c914, type: 3}
   RightControllerPrimary: {fileID: -7827405408830108060, guid: 3b8161acd44bb4e9489a58e42924c914, type: 3}
   RunSubsystemChecks: 1
