@@ -1,7 +1,7 @@
 {
   "dependencies": {
-    "com.qualcomm.qcht.unity.interactions": "file:C:/Users/alobo/Downloads/Snapdragon_Spaces_SDK_0_13_0_for_Unity/Unity Package/com.qualcomm.qcht.unity.interactions-4.0.0-pre.11.tgz",
-    "com.qualcomm.snapdragon.spaces": "file:C:/Users/alobo/Downloads/Snapdragon_Spaces_SDK_0_13_0_for_Unity/Unity Package/SnapdragonSpaces_Package_0_13_0.tgz",
+    "com.qualcomm.qcht.unity.interactions": "file:com.qualcomm.qcht.unity.interactions-4.0.0-pre.11.tgz",
+    "com.qualcomm.snapdragon.spaces": "file:SnapdragonSpaces_Package_0_13_0.tgz",
     "com.unity.collab-proxy": "1.17.7",
     "com.unity.feature.development": "1.0.1",
     "com.unity.ide.rider": "3.0.16",
