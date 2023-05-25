@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbed3556823843aaa2be63124baa47e8, type: 3}
   m_Name: HandTrackingSimulationEditorSettings
   m_EditorClassIdentifier: 
-  enabled: 0
+  enabled: 1
   dataSource: 0
