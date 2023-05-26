@@ -41,15 +41,15 @@ public class SpeedMeter : MonoBehaviour
         }
         if (up)
         {
-            inc = 0.003f;
+            inc = 0.2f;
         }
         else
         {
-            inc = -0.003f;
+            inc = -0.2f;
         }
         positions[1].z = val;
         meter.SetPositions(positions);
-        speed = Mathf.Clamp(positions[1].z, 0f, 1f) * 20;
+        speed = Mathf.Clamp(positions[1].z, 0f, 1f) * 15;
 
 
     }
