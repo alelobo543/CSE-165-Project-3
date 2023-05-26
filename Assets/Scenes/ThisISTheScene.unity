@@ -6643,6 +6643,7 @@ MonoBehaviour:
   rail1: {fileID: 0}
   rail2: {fileID: 0}
   bowl: {fileID: 1712495819}
+  arrow: {fileID: 881174441}
   pos: {x: 0, y: 0, z: 0}
   pos1: {x: 0, y: 0, z: 0}
   pos2: {x: 0, y: 0, z: 0}
@@ -8151,7 +8152,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4366688183825258287, guid: b139d700a2863624080d92c7167b1131, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 4366688183825258287, guid: b139d700a2863624080d92c7167b1131, type: 3}
       propertyPath: m_LocalRotation.x
@@ -8159,7 +8160,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4366688183825258287, guid: b139d700a2863624080d92c7167b1131, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 1
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 4366688183825258287, guid: b139d700a2863624080d92c7167b1131, type: 3}
       propertyPath: m_LocalRotation.z
@@ -8171,7 +8172,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4366688183825258287, guid: b139d700a2863624080d92c7167b1131, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 5697013769099702321, guid: b139d700a2863624080d92c7167b1131, type: 3}
       propertyPath: m_LocalPosition.x

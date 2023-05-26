@@ -8,12 +8,14 @@ public class ArrowScript : MonoBehaviour
     public GameObject theArrow;
     public BowlButton bowl;
     public float arrowDirection;
+    float time;
     float inc;
     bool right;
     void Start()
     {
         right = true;
-        inc = 0.5f;
+        inc = 2.5f;
+        time = 0;
     }
 
     // Update is called once per frame
@@ -22,17 +24,33 @@ public class ArrowScript : MonoBehaviour
         Vector3 rotation = new Vector3(0.0f, inc, 0.0f);
         if(bowl.state == 0)
         {
+            time += Time.deltaTime;
+            if (time >= 1.2f)
+            {
+                inc *= -1;
+                time = 0;
+            }
             theArrow.transform.Rotate(rotation,Space.Self);
         }
+        else
+        {
+            inc = 2.5f;
+            time = 0;
+        }
+
+
+        float angle = theArrow.transform.rotation.eulerAngles.y + 90;
+        /*
         float angle = theArrow.transform.rotation.eulerAngles.y + 90;
         if (angle < 90 )
         {
-            inc = 0.5f;
+            inc = 0.6f;
         }
         else if(angle > 270)
         {
-            inc = -0.5f;
+            inc = -0.6f;
         }
+        */
         arrowDirection = angle;
     }
 }

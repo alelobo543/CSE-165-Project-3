@@ -5424,10 +5424,12 @@ struct ArrowScript_tB4941C4839D8C40DDD55F642597819929491084E  : public MonoBehav
 	BowlButton_t0BBCB78BFF8D3AD4AAB23879118F718DF988C85E* ___bowl_5;
 	// System.Single ArrowScript::arrowDirection
 	float ___arrowDirection_6;
+	// System.Single ArrowScript::time
+	float ___time_7;
 	// System.Single ArrowScript::inc
-	float ___inc_7;
+	float ___inc_8;
 	// System.Boolean ArrowScript::right
-	bool ___right_8;
+	bool ___right_9;
 };
 
 // UnityEngine.AudioListener
@@ -5775,28 +5777,30 @@ struct ResetScript_t3B3ADADF805E68FFD50CA552711ACDFA42808116  : public MonoBehav
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___rail2_16;
 	// BowlButton ResetScript::bowl
 	BowlButton_t0BBCB78BFF8D3AD4AAB23879118F718DF988C85E* ___bowl_17;
+	// UnityEngine.GameObject ResetScript::arrow
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___arrow_18;
 	// UnityEngine.Vector3 ResetScript::pos
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___pos_18;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___pos_19;
 	// UnityEngine.Vector3 ResetScript::pos1
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___pos1_19;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___pos1_20;
 	// UnityEngine.Vector3 ResetScript::pos2
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___pos2_20;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___pos2_21;
 	// UnityEngine.Vector3 ResetScript::pos3
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___pos3_21;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___pos3_22;
 	// UnityEngine.Vector3 ResetScript::pos4
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___pos4_22;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___pos4_23;
 	// UnityEngine.Vector3 ResetScript::pos5
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___pos5_23;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___pos5_24;
 	// UnityEngine.Vector3 ResetScript::pos6
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___pos6_24;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___pos6_25;
 	// UnityEngine.Vector3 ResetScript::pos7
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___pos7_25;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___pos7_26;
 	// UnityEngine.Vector3 ResetScript::pos8
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___pos8_26;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___pos8_27;
 	// UnityEngine.Vector3 ResetScript::pos9
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___pos9_27;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___pos9_28;
 	// UnityEngine.Vector3 ResetScript::pos10
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___pos10_28;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___pos10_29;
 };
 
 // Qualcomm.Snapdragon.Spaces.Samples.SampleController

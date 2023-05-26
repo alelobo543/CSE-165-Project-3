@@ -21,6 +21,7 @@ public class ResetScript : MonoBehaviour
     public GameObject rail1;
     public GameObject rail2;
     public BowlButton bowl;
+    public GameObject arrow;
     public Vector3 pos;
     public Vector3 pos1;
     public Vector3 pos2;
@@ -123,6 +124,7 @@ public class ResetScript : MonoBehaviour
         ball.transform.GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0);
         ball.transform.GetComponent<Rigidbody>().angularVelocity = new Vector3(0, 0, 0);
         bowl.state = 0;
+        arrow.transform.rotation= Quaternion.identity;
     }
 
 

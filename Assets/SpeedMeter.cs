@@ -41,11 +41,11 @@ public class SpeedMeter : MonoBehaviour
         }
         if (up)
         {
-            inc = 0.2f;
+            inc = 0.03f;
         }
         else
         {
-            inc = -0.2f;
+            inc = -0.03f;
         }
         positions[1].z = val;
         meter.SetPositions(positions);
