@@ -6,8 +6,8 @@ public class SpeedMeter : MonoBehaviour
 {
     // Start is called before the first frame update
     public LineRenderer meter;
+    public BowlButton bowl;
     public float speed;
-    public bool speedMeterOn;
     LineRenderer instance;
     float val;
     bool up;
@@ -17,7 +17,7 @@ public class SpeedMeter : MonoBehaviour
         val = 0.01f;
         inc = 0.01f;
         up = true;
-        speedMeterOn = true;
+        inc = 0;
     }
 
     // Update is called once per frame
@@ -25,7 +25,7 @@ public class SpeedMeter : MonoBehaviour
     {
         Vector3[] positions = new Vector3[2];
         meter.GetPositions(positions);
-        if(speedMeterOn)
+        if(bowl.state == 1)
         {
             val += inc;
             positions[1].z = val;
@@ -49,10 +49,8 @@ public class SpeedMeter : MonoBehaviour
         }
         positions[1].z = val;
         meter.SetPositions(positions);
-        if (Input.GetKey(KeyCode.Space))
-        {
-            speedMeterOn = false;
-            speed = Mathf.Clamp(positions[1].z, 0f, 1f) * 20;
-        }
+        speed = Mathf.Clamp(positions[1].z, 0f, 1f) * 20;
+
+
     }
 }
